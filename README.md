@@ -34,5 +34,5 @@ Donde podremos crear un alquiler, modelos de vehiculo a alquilar, numero de dias
 # ENTIDADES PRINCIPALES:
 
 - Usuarios: existen 2 tipos de usuarios: 
-    - cliente
-    - administrador
+    - Cliente: darse de alta o baja de un alquiler o renting
+    - Administrador: crear o eliminar vehiculos.
