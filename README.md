@@ -1,9 +1,9 @@
 # Speedy-Car
 EQUIPO:
 
-David Beltran Sanchez 
+David Beltrán Sánchez 
 
-Ruben Beltran Sanchez
+Ruben Beltrán Sánchez
 
 # Descripción temática de la web:
 Esta aplicación consiste en la gestión general de una empresa que se dedica al alquiler y renting de vehiculos online. 
