@@ -15,7 +15,7 @@ Donde podremos crear un alquiler o un plan renting, añadir vehículos, eliminar
 
 - Se podrá consultar disponibilidad de vehículos tanto en renting como en alquiler.
 
-- Consultar planes de renting  (nº de años de contratacion del vehículo, nº de mensualidades , precio/mensualiades, empresa               oparticular).
+- Consultar planes de renting  (nº de años de contratacion del vehículo, nº de mensualidades , precio/mensualiades, empresa               o particular).
 
 - Consultas sobre el vehículo (marca, modelo, tipo de combustible, numero de plazas, matricula, ubiacion, estado de alquiler(ocupado o     no ocupado)).
 
