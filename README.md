@@ -30,3 +30,9 @@ Donde podremos crear un alquiler, modelos de vehiculo a alquilar, numero de dias
 - Se creará una lista de usuarios con impagos de alquiler o renting.
 
 - Existirá un usuario administrador que se encargara de gestionar los alquieres/rentings (añadir nuevos vehiculos, darlos de baja,           modificar detalles del contrato de alquiler o renting)
+
+# ENTIDADES PRINCIPALES:
+
+- Usuarios: existen 2 tipos de usuarios: 
+    - cliente
+    - administrador
