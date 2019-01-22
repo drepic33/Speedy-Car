@@ -9,7 +9,7 @@ Rubén Beltrán Sánchez
 Esta aplicación consiste en la gestión general de una empresa dedicada al alquiler y renting de vehículos online. 
 Donde podremos crear un alquiler o un plan renting, añadir vehículos, eliminarlos, seleccionar el número de dias de alquiler, precios, mensualidades, etc.
 
-# PARTE PUBLICA:
+# Parte Pública:
 
 - Mostrar características de alquiler (precio, repostaje, tipo de seguro del vehículo, plazos de pago, numero de dias de alquiler, datos   del arrendatario).
 
@@ -21,7 +21,7 @@ Donde podremos crear un alquiler o un plan renting, añadir vehículos, eliminar
 
 - Mostrar datos sobre el arrendatario del vehículo (DNI, Nombre, Apellidos, Edad, numero de años con licencia de conducir).
 
-# PARTE PRIVADA:
+# Parte Privada:
 
 - Un usuario podrá crear un alquiler o renting online, el usuario podra modificar el contrato (extender el alquiler/renting)
 
