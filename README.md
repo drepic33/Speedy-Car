@@ -6,12 +6,12 @@ David Beltrán Sánchez
 Rubén Beltrán Sánchez
 
 # Descripción temática de la web:
-Esta aplicación consiste en la gestión general de una empresa que se dedica al alquiler y renting de vehiculos online. 
-Donde podremos crear un alquiler, modelos de vehiculo a alquilar, numero de dias de alquiler, zonas recogida y entra de los vehiculos.
+Esta aplicación consiste en la gestión general de una empresa dedicada al alquiler y renting de vehiculos online. 
+Donde podremos crear un alquiler o un plan renting, añadir vehiculos, eliminarlos, seleccionar el número de dias de alquiler, precios, mensualidades, etc.
 
 # PARTE PUBLICA:
 
-- Mostrar caracteristicas de alquiler (precio,repostaje, tipo de seguro del vehiculo, plazos de pago, numero de dias de alquiler, datos   del arrendatario).
+- Mostrar caracteristicas de alquiler (precio, repostaje, tipo de seguro del vehiculo, plazos de pago, numero de dias de alquiler, datos   del arrendatario).
 
 - Se podra consultar disponibilidad de vehiculos tanto en renting como en alquiler.
 
