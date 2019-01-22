@@ -11,22 +11,22 @@ Donde podremos crear un alquiler, modelos de vehiculo a alquilar, numero de dias
 
 # PARTE PUBLICA:
 
-Mostrar caracteristicas de alquiler (precio,repostaje, tipo de seguro del vehiculo, plazos de pago, numero de dias de alquiler).
+- Mostrar caracteristicas de alquiler (precio,repostaje, tipo de seguro del vehiculo, plazos de pago, numero de dias de alquiler).
 
-Se podra consultar disponibilidad de vehiculos tanto en renting como en alquiler.
+- Se podra consultar disponibilidad de vehiculos tanto en renting como en alquiler.
 
-Consultar planes de renting  (numero de años de contratacion del vehiculo, precio/mensualiades, empresa o particular).
+- Consultar planes de renting  (numero de años de contratacion del vehiculo, precio/mensualiades, empresa o particular).
 
-Consultas sobre el vehiculo (marca, modelo, tipo de combustible, numero de plazas, matricula, ubiacion, estado de alquiler(ocupado o no ocupado)).
+- Consultas sobre el vehiculo (marca, modelo, tipo de combustible, numero de plazas, matricula, ubiacion, estado de alquiler(ocupado o no     ocupado)).
 
 Datos sobre el arrendatario del vehiculo(DNI, Nombre, Apellidos, Edad, numero de años con licencia de conducir).
 
 # PARTE PRIVADA:
 
-Un usuario podra crear un alquiler o renting online, el usuario podra modificar el contrato (extender el alquiler/renting)
+- Un usuario podra crear un alquiler o renting online, el usuario podra modificar el contrato (extender el alquiler/renting)
 
-Un usuario podra darse de baja tanto del alquiler como del renting.(Penalizacion)
+- Un usuario podra darse de baja tanto del alquiler como del renting.(Penalizacion)
 
-Se creará una lista de usuarios con impagos de alquiler o renting.
+- Se creará una lista de usuarios con impagos de alquiler o renting.
 
-Existirá un usuario administrador que se encargara de gestionar los alquieres/rentings (añadir nuevos vehiculos, darlos de baja, modificar detalles del contrato de alquiler o renting)
+- Existirá un usuario administrador que se encargara de gestionar los alquieres/rentings (añadir nuevos vehiculos, darlos de baja,           modificar detalles del contrato de alquiler o renting)
