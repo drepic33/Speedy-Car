@@ -3,7 +3,7 @@ EQUIPO:
 
 David Beltrán Sánchez 
 
-Ruben Beltrán Sánchez
+Rubén Beltrán Sánchez
 
 # Descripción temática de la web:
 Esta aplicación consiste en la gestión general de una empresa que se dedica al alquiler y renting de vehiculos online. 
