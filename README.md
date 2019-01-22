@@ -1,4 +1,4 @@
 # Speedy-Car
-GRUPO:
+EQUIPO:
 David Beltran Sanchez 
 Ruben Beltran Sanchez
