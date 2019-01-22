@@ -11,13 +11,13 @@ Donde podremos crear un alquiler, modelos de vehiculo a alquilar, numero de dias
 
 # PARTE PUBLICA:
 
-- Mostrar caracteristicas de alquiler (precio,repostaje, tipo de seguro del vehiculo, plazos de pago, numero de dias de alquiler).
+- Mostrar caracteristicas de alquiler (precio,repostaje, tipo de seguro del vehiculo, plazos de pago, numero de dias de alquiler, datos   del arrendatario).
 
 - Se podra consultar disponibilidad de vehiculos tanto en renting como en alquiler.
 
-- Consultar planes de renting  (numero de años de contratacion del vehiculo, precio/mensualiades, empresa o particular).
+- Consultar planes de renting  (nº de años de contratacion del vehiculo, nº de mensualidades , precio/mensualiades, empresa               oparticular).
 
-- Consultas sobre el vehiculo (marca, modelo, tipo de combustible, numero de plazas, matricula, ubiacion, estado de alquiler(ocupado o no     ocupado)).
+- Consultas sobre el vehiculo (marca, modelo, tipo de combustible, numero de plazas, matricula, ubiacion, estado de alquiler(ocupado o     no ocupado)).
 
 - Mostrar datos sobre el arrendatario del vehiculo(DNI, Nombre, Apellidos, Edad, numero de años con licencia de conducir).
 
@@ -37,6 +37,6 @@ Donde podremos crear un alquiler, modelos de vehiculo a alquilar, numero de dias
     - Cliente: darse de alta o baja de un alquiler o renting
     - Administrador: crear o eliminar vehiculos.
 - Vehiculo: mostrara todas las caracterisitcas de los vehiculos(marca, modelo, precio, combustible, plazas, etc.).
-- Alquiler: mostrara las caracteririscas de un alquiler (datos personales, contratacion, etc.)
-- Renting:  mostrara las caracteririscas de un renting  (datos personales, contratacion, etc.)
-- Adeudado: mostrara una lista con los usuarios en impago.
+- Alquiler: mostrara las caracteririscas de un alquiler (datos del arrendatario, datos de la contratacion, etc.)
+- Renting:  mostrara las caracteririscas de un renting  (Nº de años contratado, nº de mensulaidades, precio/mensualidad, etc.)
+- Adeudado: mostrara una lista con los usuarios con impago.
