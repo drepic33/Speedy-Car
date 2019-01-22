@@ -1,2 +1,4 @@
 # Speedy-Car
-David y Ruben  B.S.
+GRUPO:
+David Beltran Sanchez 
+Ruben Beltran Sanchez
