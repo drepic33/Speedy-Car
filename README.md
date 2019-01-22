@@ -36,3 +36,7 @@ Donde podremos crear un alquiler, modelos de vehiculo a alquilar, numero de dias
 - Usuarios: existen 2 tipos de usuarios: 
     - Cliente: darse de alta o baja de un alquiler o renting
     - Administrador: crear o eliminar vehiculos.
+- Vehiculo: mostrara todas las caracterisitcas de los vehiculos(marca, modelo, precio, combustible, plazas, etc.).
+- Alquiler: mostrara las caracteririscas de un alquiler (datos personales, contratacion, etc.)
+- Renting:  mostrara las caracteririscas de un renting  (datos personales, contratacion, etc.)
+- Adeudado: mostrara una lista con los usuarios en impago.
