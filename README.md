@@ -19,7 +19,7 @@ Donde podremos crear un alquiler o un plan renting, añadir vehículos, eliminar
 
 - Consultas sobre el vehículo (marca, modelo, tipo de combustible, numero de plazas, matricula, ubiacion, estado de alquiler(ocupado o     no ocupado)).
 
-- Mostrar datos sobre el arrendatario del vehículo (DNI, Nombre, Apellidos, Edad, numero de años con licencia de conducir).
+- Mostrar datos sobre el arrendatario del vehículo (DNI, nombre, apellidos, edad, numero de años con licencia de conducir).
 
 # Parte Privada:
 
