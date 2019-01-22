@@ -19,7 +19,7 @@ Donde podremos crear un alquiler, modelos de vehiculo a alquilar, numero de dias
 
 - Consultas sobre el vehiculo (marca, modelo, tipo de combustible, numero de plazas, matricula, ubiacion, estado de alquiler(ocupado o no     ocupado)).
 
-Datos sobre el arrendatario del vehiculo(DNI, Nombre, Apellidos, Edad, numero de años con licencia de conducir).
+- Mostrar datos sobre el arrendatario del vehiculo(DNI, Nombre, Apellidos, Edad, numero de años con licencia de conducir).
 
 # PARTE PRIVADA:
 
