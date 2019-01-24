@@ -41,5 +41,5 @@ Donde podremos crear un alquiler o un plan renting, añadir vehículos, eliminar
     - Administrador: crear o eliminar vehículos.
 - Vehículos: mostrará todas las características de los vehículos (marca, modelo, precio, combustible, plazas, etc.).
 - Alquiler: mostrará las características de un alquiler (datos del arrendatario, datos de la contratacion, etc.)
-- Renting:  mostrará las características de un renting  (nº de años contratado, nº de mensulaidades, precio/mensualidad, etc.)
-- Factura: mostrará el precio total de todas las mensualiades correspondiente a un usuario de alquiler o renting.
+- Renting: mostrará las características de un renting  (nº de años contratado, nº de mensulaidades, precio/mensualidad, etc.)
+- Factura: mostrará el precio total de los dias/mensualiades correspondiente a un usuario de alquiler o renting.
