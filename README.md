@@ -31,7 +31,7 @@ Donde podremos crear un alquiler o un plan renting, añadir vehículos, eliminar
 
 - Existirá un usuario administrador que se encargara de gestionar los alquieres/rentings (añadir nuevos vehículos, darlos de baja,           modificar detalles del contrato de alquiler o renting)
 # Servicio interno:
-- enviar una notificacion a traves e-mail a los usuarios de renting, proporcionando informacion sobre los nuevos vehiculos por los
+- enviar una notificación a traves e-mail a los usuarios de renting, proporcionando información sobre los nuevos vehículos por los
   que puede sustituir en su plan de renting.
 
 # ENTIDADES PRINCIPALES:
