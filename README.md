@@ -43,3 +43,6 @@ Donde podremos crear un alquiler o un plan renting, añadir vehículos, eliminar
 - Alquiler: mostrará las características de un alquiler (datos del arrendatario, datos de la contratacion, etc.)
 - Renting: mostrará las características de un renting  (nº de años contratado, nº de mensulaidades, precio/mensualidad, etc.)
 - Factura: mostrará el precio total de los dias/mensualiades correspondiente a un usuario de alquiler o renting.
+
+#DIAGRAMA ENTIDAD/RELACION
+
