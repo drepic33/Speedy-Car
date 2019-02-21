@@ -1,0 +1,237 @@
+<!doctype html>
+
+<HTML> 
+
+	<HEAD> 
+		<TITLE>SPEEDYCAR</TITLE> 
+		<meta charset="utf-8"/>
+		<link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+		<meta name="author" content="SpeedyCar">
+		<meta name="description" content="Inscripcion de Vehiculos y base de datos Renting y Alquilerg">
+		<meta name="keywords" content="vehiculo vehiculos alquiler alquileres renting rentings factura facturas usuarios usuarios">
+		<style type="text/css">
+			h1 {
+			  border-style: none;
+			  font-family: Arial,Helvetica,sans-serif;
+			  font-weight: bold;
+			  text-transform: uppercase;
+			  font-size: 30px;
+			  color: #000000;
+			}
+			h4 {
+			  font-weight: bold;
+			  text-transform: uppercase;
+			  font-family: Arial,Helvetica,sans-serif;
+			  color: #000000;
+			  font-size: 15px;
+			}
+		  </style>		
+	</HEAD>
+	
+	<BODY BACKGROUND="images/fondo.jpg">
+		<table style="text-align: left; width: 85%; margin-left: auto; margin-right: auto;" border="0" cellpadding="0" cellspacing="0">
+		  <tbody>
+			<tr>
+			  <td style="vertical-align: middle; text-align: center; background-color: withe;"><img style="width: 181px; height: 126px;" alt="speedycar" src="images/speedycar.jpg"></td>
+			  <td style="vertical-align: top; height: 100%;">
+			  <table style="text-align: left; width: 100%; height: 100%; margin-left: auto; margin-right: auto;" border="0" cellpadding="0" cellspacing="0">
+				<tbody>
+				  <tr style="color: rgb(0, 0, 153);" align="center">
+					<td style="vertical-align: middle; background-color: withe;">
+					<h1></big><big>SPEEDYCAR</big></big></h1>
+					</td>
+				  </tr>
+				  <tr>
+					<td style="vertical-align: top; background-color: withe; text-align: center;"><strong>
+					<script type="text/javascript" align="center">
+						var d = new Date();
+						var day = d.getDate();
+						var month = new Array();
+						month[0] = "Enero";
+						month[1] = "Febrero";
+						month[2] = "Marzo";
+						month[3] = "Abril";
+						month[4] = "Mayo";
+						month[5] = "Junio";
+						month[6] = "Julio";
+						month[7] = "Agosto";
+						month[8] = "Septiembre";
+						month[9] = "Octubre";
+						month[10] = "Noviembre";
+						month[11] = "Diciembre";
+						if (day<10){
+							document.write('0'+day+' de '+month[d.getMonth()],' de '+d.getFullYear());
+						}else{
+							document.write(day+' de '+month[d.getMonth()],' de '+d.getFullYear());
+						}
+					</script>
+					</strong><br>
+					</td>
+				  </tr>
+				</tbody>
+			  </table>
+			  <br>
+			  </td>
+			  <td style="vertical-align: middle; text-align: center; background-color: withe;"><img style="width: 174px; height: 126px;" alt="baseDatos" src="images/basedatos.jpg" align="middle"></td>
+			</tr>
+		  </tbody>
+		</table>
+		<br>
+		<TABLE align="center" BORDER=0 BGCOLOR=#000099>
+			<TR style="background-color: silver; height: 25px">
+				<TH valign="top" BGCOLOR=#6E6E6E colspan="4">
+					<TABLE align="center" BORDER=0 BGCOLOR=#000099>
+						<TR style="background-color: silver; height: 25px">
+							<TH BGCOLOR=#6E6E6E colspan="4">
+								<h1 align="center">REALIZAR CONSULTA</h1>
+							</TH>			
+						</TR>		
+						<TR style="background-color: silver; height: 25px">
+							<form action="/consultarmodelovehiculo/modelo" method='get' accept-charset="utf-8">
+							<TH>
+								<TABLE align="center" style = "border: 0px solid #000099; width: 360px;">
+									<TR style="background-color: silver; height: 10px;">
+										<TH BGCOLOR=#6E6E6E colspan="2">
+											<h4 align="center"><b>CARACTERÍSTICAS  VEHICULO</b></h4>
+										</TH>
+									</TR>					
+									<TR style="background-color: silver; height: 10px">
+										<TH>
+											<p align="center"><b>MODELODEL VEHICULO: <input type='text' name='modelo' style="border: 1px solid #000099;"/></b></p>
+										</TH>
+									</TR>
+									<TR style="background-color: silver; height: 10px">
+										<TH>
+											<input type="submit" value="Buscar" style="background-color: silver; height: 30px; width: 100px; border: 1px solid #000099; font-weight:bold;font-size: 20px;">
+										</TH>
+									</TR>
+								</TABLE>				
+							</TH>
+							</form>				
+							<form action="/consultarkilometrosrenting/kilometros" method='get' accept-charset="utf-8">
+							<TH>
+								<TABLE align="center" style = "border: 0px solid #000099; width: 360px;">
+									<TR style="background-color: silver; height: 10px">
+										<TH BGCOLOR=#6E6E6E colspan="2">
+											<h4 align="center"><b>CONTRATOS RENTING</b></h4>
+										</TH>
+									</TR>					
+									<TR style="background-color: silver; height: 10px">
+										<TH>
+											<p align="center"><b>NUMERO DE KILOMETROS: <input type='text' name='kilometros' style="border: 1px solid #000099;"/></b></p>							
+										</TH>
+									</TR>
+									<TR style="background-color: silver; height: 10px">
+										<TH>
+											<input type="submit" value="Buscar" style="background-color: silver; height: 30px; width: 100px; border: 1px solid #000099; font-weight:bold;font-size: 20px;">
+										</TH>
+									</TR>
+								</TABLE>				
+							</TH>
+							</form>		
+						</TR>
+						<TR style="background-color: silver; height: 25px">
+							<form action="/consultarplazasvehiculo/plazas" method='get' accept-charset="utf-8">
+							<TH>
+								<TABLE align="center" style = "border: 0px solid #000099; width: 360px;">
+									<TR style="background-color: silver; height: 10px">
+										<TH BGCOLOR=#6E6E6E colspan="2">
+											<h4 align="center"><b>VEHICULOS POR PLAZAS</b></h4>
+										</TH>
+									</TR>					
+									<TR style="background-color: silver; height: 10px">
+										<TH>
+											<p align="center"><b>PLAZAS: <input type='text' name='plazas' style="border: 1px solid #000099;"/></b></p>
+										</TH>
+									</TR>
+									<TR style="background-color: silver; height: 10px">
+										<TH>
+											<input type="submit" value="Buscar" style="background-color: silver; height: 30px; width: 100px; border: 1px solid #000099; font-weight:bold;font-size: 20px;">
+										</TH>
+									</TR>
+								</TABLE>				
+							</TH>
+							</form>						
+							<form action="/consultarprecioalquiler/precio" method='get' accept-charset="utf-8">
+							<TH>
+								<TABLE align="center" style = "border: 0px solid #000099; width: 360px;">
+									<TR style="background-color: silver; height: 10px">
+										<TH BGCOLOR=#6E6E6E colspan="2">
+											<h4 align="center"><b>CONTRATOS ALQUILER</b></h4>
+										</TH>
+									</TR>					
+									<TR style="background-color: silver; height: 10px">
+										<TH>
+											<p align="center"><b>PRECIO/DIA: <input type='text' name='precio' style="border: 1px solid #000099;"/></b></p>
+										</TH>
+									</TR>
+									<TR style="background-color: silver; height: 10px">
+										<TH>
+											<input type="submit" value="Buscar" style="background-color: silver; height: 30px; width: 100px; border: 1px solid #000099; font-weight:bold;font-size: 20px;">
+										</TH>
+									</TR>
+								</TABLE>				
+							</TH>
+							</form>	
+						</TR>		
+						<TR style="background-color: silver; height: 25px">
+							<form action="/consultarcombustiblevehiculo/combustible" method='get' accept-charset="utf-8">
+							<TH>
+								<TABLE align="center" style = "border: 0px solid #000099; width: 360px;">
+									<TR style="background-color: silver; height: 10px">
+										<TH BGCOLOR=#6E6E6E colspan="2">
+											<h4 align="center"><b>COMUSTIBLE VEHICULO</b></h4>
+										</TH>
+									</TR>	
+									<TR style="background-color: silver; height: 10px">
+										<TH>
+											<p align="center"><b>COMBUSTIBLE: <input type='text' name='combustible' style="border: 1px solid #000099;"/></b></p>
+										</TH>
+									</TR>
+									<TR style="background-color: silver; height: 10px">
+										<TH>
+											<input type="submit" value="Buscar" style="background-color: silver; height: 30px; width: 100px; border: 1px solid #000099; font-weight:bold;font-size: 20px;">
+										</TH>
+									</TR>
+								</TABLE>				
+							</TH>
+							</form>	
+							<form action="/consultarcaballosvehiculo/caballos" method='get' accept-charset="utf-8">
+							<TH>
+								<TABLE align="center" style = "border: 0px solid #000099; width: 360px;">
+									<TR style="background-color: silver; height: 10px">
+										<TH BGCOLOR=#6E6E6E colspan="2">
+											<h4 align="center"><b>POTENCIA VEHICULO</b></h4>
+										</TH>
+									</TR>					
+									<TR style="background-color: silver; height: 10px">
+										<TH>
+											<p align="center"><b>CABALLOS: <input type='text' name='caballos' style="border: 1px solid #000099;"/></b></p>
+										</TH>
+									</TR>
+									<TR style="background-color: silver; height: 10px">
+										<TH>
+											<input type="submit" value="Buscar" style="background-color: silver; height: 30px; width: 100px; border: 1px solid #000099; font-weight:bold;font-size: 20px;">
+										</TH>
+									</TR>
+								</TABLE>				
+							</TH>
+							</form>	
+						</TR>
+					</TABLE>
+				</TH>				
+			</TR>			
+		</TABLE>
+		<br>
+		<form action="/" method="post">
+		<TABLE align="center" BORDER=0 BGCOLOR=#000099>
+			<TR>
+				<TH BGCOLOR=#000099>
+					<input type="submit" value="Volver" style="background-color: silver; height: 75px; width: 300px; border: 1px solid #000099; font-weight:bold;font-size: 20px;">
+					<input type="hidden" name="_csrf" value="{{token}}"/>
+				</TH>
+			</TR>
+		</TABLE>
+		</form>			
+	</BODY>	
+</HTML>
