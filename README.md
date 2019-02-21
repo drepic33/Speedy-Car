@@ -45,4 +45,4 @@ Donde podremos crear un alquiler o un plan renting, añadir vehículos, eliminar
 - Factura: mostrará el precio total de los dias/mensualiades correspondiente a un usuario de alquiler o renting.
 
 # DIAGRAMA ENTIDAD/RELACION
-
+https://github.com/drepic33/Speedy-Car/issues/1#issue-412842590
