@@ -46,3 +46,5 @@ Donde podremos crear un alquiler o un plan renting, añadir vehículos, eliminar
 
 # DIAGRAMA ENTIDAD/RELACION
 ![entidadrealacion](https://user-images.githubusercontent.com/46919377/53160584-8ace0680-35c8-11e9-81bb-8cd792f9515e.jpg)
+
+# UML
